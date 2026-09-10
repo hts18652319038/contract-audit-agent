@@ -1,0 +1,110 @@
+[
+  {
+    "id": "RULE-001",
+    "category": "主体信息",
+    "keywords": "甲方,乙方",
+    "riskDescription": "合同主体信息不完整",
+    "suggestion": "确保甲乙双方名称、地址、联系方式齐全",
+    "severity": "HIGH",
+    "required": false
+  },
+  {
+    "id": "RULE-002",
+    "category": "主体信息",
+    "keywords": "统一社会信用代码,营业执照",
+    "riskDescription": "缺少统一社会信用代码",
+    "suggestion": "建议补充双方统一社会信用代码以便核实主体资质",
+    "severity": "MEDIUM",
+    "required": false
+  },
+  {
+    "id": "RULE-003",
+    "category": "金额条款",
+    "keywords": "元,金额,价格,租金",
+    "riskDescription": "金额条款需要大小写同时注明",
+    "suggestion": "建议同时注明阿拉伯数字和中文大写金额",
+    "severity": "MEDIUM",
+    "required": false
+  },
+  {
+    "id": "RULE-004",
+    "category": "期限条款",
+    "keywords": "有效期,期限,起止日期",
+    "riskDescription": "合同缺少明确的起止日期",
+    "suggestion": "明确合同的生效日期和终止日期",
+    "severity": "HIGH",
+    "required": false
+  },
+  {
+    "id": "RULE-005",
+    "category": "违约责任",
+    "keywords": "违约,违约金,赔偿",
+    "riskDescription": "违约责任应当双方对等",
+    "suggestion": "确保甲乙双方的违约责任对等，避免单方面加重某方责任",
+    "severity": "HIGH",
+    "required": false
+  },
+  {
+    "id": "RULE-006",
+    "category": "合规条款",
+    "keywords": "保密,商业秘密",
+    "riskDescription": "合同缺少保密条款",
+    "suggestion": "建议增加保密条款，明确双方的保密义务和违约责任",
+    "severity": "MEDIUM",
+    "required": true
+  },
+  {
+    "id": "RULE-007",
+    "category": "合规条款",
+    "keywords": "不可抗力",
+    "riskDescription": "合同缺少不可抗力条款",
+    "suggestion": "建议增加不可抗力条款，约定自然灾害等不可抗力事件的免责处理",
+    "severity": "MEDIUM",
+    "required": true
+  },
+  {
+    "id": "RULE-008",
+    "category": "合规条款",
+    "keywords": "争议,仲裁,诉讼,管辖",
+    "riskDescription": "合同缺少争议解决条款",
+    "suggestion": "建议增加争议解决条款，明确仲裁或诉讼方式及管辖机构",
+    "severity": "HIGH",
+    "required": true
+  },
+  {
+    "id": "RULE-009",
+    "category": "合同签署",
+    "keywords": "签字,盖章,签署日期",
+    "riskDescription": "合同缺少签署区域",
+    "suggestion": "补充双方签章栏、签署日期和签署地点",
+    "severity": "MEDIUM",
+    "required": false
+  },
+  {
+    "id": "RULE-010",
+    "category": "付款约定",
+    "keywords": "付款方式,支付,转账,现金",
+    "riskDescription": "付款方式不够明确",
+    "suggestion": "明确约定付款方式（银行转账/现金等）、付款账户、付款时间",
+    "severity": "MEDIUM",
+    "required": false
+  },
+  {
+    "id": "RULE-011",
+    "category": "合规条款",
+    "keywords": "合同解除,解除条件",
+    "riskDescription": "合同缺少解除条件条款",
+    "suggestion": "建议增加合同解除条件，约定双方可以解除合同的情形和程序",
+    "severity": "LOW",
+    "required": true
+  },
+  {
+    "id": "RULE-012",
+    "category": "合规条款",
+    "keywords": "通知,送达",
+    "riskDescription": "合同缺少通知与送达条款",
+    "suggestion": "建议增加通知与送达条款，明确双方的通知方式和送达地址",
+    "severity": "LOW",
+    "required": true
+  }
+]

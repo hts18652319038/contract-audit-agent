@@ -1,0 +1,44 @@
+[
+  {
+    "id": "CASE-001",
+    "contractName": "房屋租赁合同-示例",
+    "contractType": "租赁合同",
+    "auditTime": "2025-01-15 10:30:00",
+    "riskCount": 4,
+    "highRiskCount": 1,
+    "mediumRiskCount": 2,
+    "lowRiskCount": 1,
+    "category": "违约责任",
+    "keywords": "单方解除,甲方有权,仅甲方",
+    "riskDescription": "违约条款仅约束乙方，甲方无违约责任",
+    "suggestion": "违约责任条款应对等，增加甲方违约时的责任"
+  },
+  {
+    "id": "CASE-002",
+    "contractName": "买卖合同-示例",
+    "contractType": "买卖合同",
+    "auditTime": "2025-02-20 14:15:00",
+    "riskCount": 3,
+    "highRiskCount": 1,
+    "mediumRiskCount": 2,
+    "lowRiskCount": 0,
+    "category": "金额条款",
+    "keywords": "仅小写,无大写,金额无大写",
+    "riskDescription": "合同金额仅有阿拉伯数字，缺少中文大写",
+    "suggestion": "建议增加中文大写金额，防止篡改"
+  },
+  {
+    "id": "CASE-003",
+    "contractName": "服务合同-示例",
+    "contractType": "服务合同",
+    "auditTime": "2025-03-10 09:45:00",
+    "riskCount": 5,
+    "highRiskCount": 2,
+    "mediumRiskCount": 2,
+    "lowRiskCount": 1,
+    "category": "合规条款",
+    "keywords": "无争议解决,无管辖,无仲裁",
+    "riskDescription": "合同完全缺少争议解决条款",
+    "suggestion": "必须增加争议解决条款，约定仲裁或诉讼方式"
+  }
+]
